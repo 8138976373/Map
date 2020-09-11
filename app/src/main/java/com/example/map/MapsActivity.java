@@ -17,6 +17,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
+    String s=null;
     private GoogleMap mMap;
     private static final int LOCATION_REQUEST =500;
 
